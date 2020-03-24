@@ -9,7 +9,7 @@ const cors = require('cors');
 
 const config_data = require('./config/config.json')
 
-const mongo_url = "mongodb://localhost:6969/tweets";
+const mongo_url = "mongodb://" + config_data.mongodb.host + ":" + config_data.mongodb.port +"/tweets";
 const output_dir = '../output/';
 const negative_output_file = output_dir + 'negative_tweets.json';
 const positive_output_file = output_dir + 'positive_tweets.json';

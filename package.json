@@ -1,0 +1,27 @@
+{
+  "name": "sentiment-trainer-server",
+  "version": "1.0.0",
+  "description": "Build on top of the nltk twiter sentiment training data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalfacesec/sentiment-trainer-server.git"
+  },
+  "author": "Sean Moriarty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalfacesec/sentiment-trainer-server/issues"
+  },
+  "homepage": "https://github.com/metalfacesec/sentiment-trainer-server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "random-words": "^1.1.0"
+  }
+}
